@@ -18,4 +18,4 @@ intermediate/*
 png/*
 git_backup/*
 propbank-frames/*
-n
+__pycache__/*n
