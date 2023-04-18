@@ -12,15 +12,15 @@ What are the events involved in a pandemic outbreak? What steps should be taken 
 
 ## Ports used for IE services
 
-6003: constituency parsing - a model developed by allennlp
-6004: subevent - OnePass model trained on HiEve
-6009: temporal - OnePass model trained on MATRES
-8888: coref (not provided)
+6003: constituency parsing - a model developed by allennlp<br>
+6004: subevent - OnePass model trained on HiEve<br>
+6009: temporal - OnePass model trained on MATRES<br>
+8888: coref (not provided)<br>
 
 ## Environment
 
-cp_env.yml specifies the conda environment used to run constituency parsing service
-main_env.yml specifies the conda environment used to run the temporal and subevent services, and also the main experiment
+cp_env.yml specifies the conda environment used to run constituency parsing service<br>
+main_env.yml specifies the conda environment used to run the temporal and subevent services, and also the main experiment<br>
 
 ## How to run the code
 
