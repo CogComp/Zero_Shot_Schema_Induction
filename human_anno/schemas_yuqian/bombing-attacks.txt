@@ -1,0 +1,25 @@
+Bombing Attacks
+No text provided
+
+1. event: carry, arg0: PER, arg1: ART
+2. event: set, arg0: PER, arg1: ART
+3. event: detonate, arg0: PER, arg1: ART
+4. event: explosion
+5. event: kill, arg0: explosion, arg1: PER
+6. event: injure, arg0: explosion, arg1: PER
+7. event: chaos
+8. event: arrive, arg0: ORG
+9. event: evacuate, arg0: ORG, arg1: PER
+10. event: take, arg0: ORG, arg1: PER, ARGM-LOC: FAC
+11. event: clear, arg0: ORG, arg1: LOC
+
+before: 0->1
+before: 1->2
+before: 2->3
+before: 3->4
+before: 4->5
+before: 3->6
+before: 6->7
+before: 7->8
+before: 7->9
+AND: 9->10

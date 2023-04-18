@@ -1,0 +1,10 @@
+Election
+Trump won the Keystone State in 2016 by less than a point and lost it in 2020 by a bit more than a point. As a result of that, supposed misdeeds in the state have loomed large in the MAGA crowd’s fraud narrative. Trump and others have alleged that Democrats directly stuffed ballot boxes during the counting in Democrat-controlled cities such as Philadelphia, or did so indirectly through fraudulently cast mail-in ballots.
+
+1. event: win, arg0: PER, arg-tmp: TMP
+2. event: lose, arg0: PER, arg-tmp: TMP
+3. event: loom, arg0: misdeeds, arg1: ORG
+4. event: allege, arg0: PER, arg1: PER, arg-tmp: TMP
+
+cause: 2->3
+cause: 2->4

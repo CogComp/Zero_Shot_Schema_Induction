@@ -1,0 +1,13 @@
+Bombing Attacks
+A suicide bomber killed at least five people at a crowded night spot in the city of Beni in the eastern Democratic Republic of Congo Saturday. The suicide bomber, prevented by security from gaining access to the bar, packed with clients, activated the bomb at the entrance. Shortly after the blast, Narcisse Muteba, the colonel running the city during the state of emergency in the east of the country, had called on residents to return to their homes for their own safety
+
+1. event: kill, arg0: PER, arg1: PER, arg-loc: LOC, arg-tmp: TMP
+2. event: prevent, arg0: PER, arg1: LOC
+3. event: activate, arg0: PER, arg1: OBJ, arg-loc: LOC
+4. event: call, arg0: PER, arg1: PER, arg2: LOC
+
+before: 3->1
+before: 1->4
+before: 2->1
+cause: 3->1
+cause: 1->4

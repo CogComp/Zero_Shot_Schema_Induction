@@ -1,0 +1,15 @@
+kidnap: arg0 – kidnapper [PER], arg1 – people/vehicle
+rescue: arg0 – police, arg1 – kidnapped people[PER]
+kill: arg0 – kidnapper [PER], arg1 – kidnapped people [PER]
+injure: arg0 – kidnapper [PER], arg1 – kidnapped people [PER]
+pay: arg0 – government/person [PER], arg1 – kidnapper [PER]
+arrest: arg0 – police, arg1 – kidnapper [PER]
+sentence: arg0 – tribunal/justice, arg1 – kidnapper [PER]
+judge : arg1 – kidnapper
+negociate: arg0 – police, arg2 – kidnapper [PER]
+release: arg0 – kidnapper [PER], arg1 – kidnapped people [PER]
+escape: arg0 – kidnapped people [PER]
+attack: arg0 – police, arg1 – kidnapper [PER]
+shoot: arg0 – police/kidnapper, arg1 – police/kidnapper/kidnapped people
+
+kidnapper kidnaps people/vehicle -> (police rescues kidnapped people AND (police attacks kidnapper OR police shoots on the kidnapper -> police kills kidnapper OR (police injures kidnapper AND/OR police arrests kidnapper))) AND/OR (kidnapper kills kidnapped people OR kidnapper injures kidnapped people) OR kidnapped people escape OR (kidnapper releases kidnapped people AND/OR government/person pays the kidnapper AND police negotiated with kidnapper) -> the kidnapper is judged -> tribunal/justice sentence the kidnapper.

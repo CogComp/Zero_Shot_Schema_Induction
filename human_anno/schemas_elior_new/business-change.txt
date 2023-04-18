@@ -1,0 +1,9 @@
+Business Change
+No text provided
+
+1. event: move,  arg0: company, destination: new location [LOC]
+2. event: rent, arg0: company, arg1: building/store/office
+3. event: hire, arg0: company, arg1: employees [PER]
+4. event: sell, arg0: company, arg1: building/store/office
+5. event: publish, arg0: company, arg1: new location [LOC], arg2: media 
+6. event: purchase, arg0: company, arg1: building/store/office

@@ -1,0 +1,14 @@
+Disaster and Rescue
+No text provided
+
+1. event: happen, arg0: disaster
+2. event: kill, arg0: disaster, arg1: victim [PER]
+3. event: injure,  arg0: disaster, arg1: victim [PER]
+4. event: rescue, arg0: rescue teams [PER], arg1: victim [PER]
+5. event: transport, arg0: ambulances/helicopters [PER], arg1: victim [PER], destination: hospital [LOC]
+6. event: hide, arg0: [PER], location: protected location [LOC]
+7. event: survive, arg0: [PER], location: disaster location [LOC]
+8. event: propose, arg0: foreign government, arg1: help, arg2: affected country
+9. event: arrive, arg0: rescue teams/medical teams, location: disaster location [LOC]
+10. event: provide, arg0: medical teams, arg1: care/first aid, arg2: victims
+11. event: search for, rag0: rescue teams, arg1: survivors 

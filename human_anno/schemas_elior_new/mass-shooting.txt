@@ -1,0 +1,15 @@
+Mass Shooting
+No text provided
+
+1. event: attack, arg0: perpetrator [PER], arg1: victim
+2. event: shoot, arg0: perpetrator [PER], arg2: victim
+3. event: kill, arg0: perpetrator [PER]/police, arg1: victim/perpetrator [PER]
+4. event: injure, arg0: perpetrator [PER]/police, arg1: victim/perptrator [PER]
+5. event: neutralize, arg0: police/crowd [PER], arg1: preetrator [PER]
+6. event: arrest, arg0: police, arg1: perpetrator [PER]
+7. event: transport, arg0: ambulance, arg1: victim [PER]
+8. event: arrive, arg0: police/medical teams, location: mass shooting scene [LOC]
+9. event: run away, arg0: perpetrator [PER]
+10. event: provide, arg0: medical teams, arg1: first aid/care, arg2: victims [PER]
+11. event: pursue, arg0: police, arg1: perpetrator [PER]
+12. event: hide, arg0: [PER], arg2: perpetrator [PER]

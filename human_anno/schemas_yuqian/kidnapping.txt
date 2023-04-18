@@ -1,0 +1,21 @@
+Kidnapping
+No text provided
+
+1. event: investigate, arg0: ORG, arg1: PER
+2. event: target, arg0: PER, arg1: PER
+3. event: follow, arg0: PER, arg1: PER
+4. event: kidnap, arg0: PER, arg1: PER
+5. event: connect, arg0: PER, arg1: PER
+6. event: threaten, arg0: PER, arg1: PER
+7. event: make, arg0: PER
+8. event: call, arg0: PER, arg1: ORG
+9. event: rescue, arg0: ORG, arg1: PER
+
+before: 0->1
+before: 1->2
+before: 2->3
+before: 3->4
+before: 4->5
+OR: 5->6
+before: 4->7
+before: 7->8

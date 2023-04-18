@@ -1,0 +1,5 @@
+S - simple declarative clause, i.e. one that is not introduced by a (possible empty) subordinating conjunction or a wh-word and that does not exhibit subject-verb inversion.
+SBAR - Clause introduced by a (possibly empty) subordinating conjunction.
+SBARQ - Direct question introduced by a wh-word or a wh-phrase. Indirect questions and relative clauses should be bracketed as SBAR, not SBARQ.
+SINV - Inverted declarative sentence, i.e. one in which the subject follows the tensed verb or modal.
+SQ - Inverted yes/no question, or main clause of a wh-question, following the wh-phrase in SBARQ.

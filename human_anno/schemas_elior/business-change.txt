@@ -1,0 +1,8 @@
+Move:  arg0 – company, destination – new location [LOC]
+Rent: arg0 – company, arg1 – building/store/office
+Hire: arg0 – company, arg1 – employees [PER]
+Sell: arg0 – company, arg1 – building/store/office
+Publish: arg0 – company, arg1 – new location [LOC], arg2 – media 
+Purchase: arg0 – company, arg1 – building/store/office
+
+(Company purchases building/store/office OR Company rents building/store/office) AND/OR Company sells building/store/office AND/OR company hires employees AND/OR company published the new location in the media -> Company moves to a new location.

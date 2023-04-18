@@ -1,0 +1,14 @@
+International Conflict
+With Russian troops massing along Ukraine’s borders, American and Russian diplomats made clear after an intense round of negotiations on Monday that while the two sides would keep talking, they remain far from agreement on meeting each other’s security concerns.
+
+1. event: mass, arg0: PER, arg-loc: GPE
+2. event: make, arg0: PER, arg-tmp: TMP
+3. event: keep, arg0: GPE
+4. event: talk, arg0: GPE, arg1: GPE
+5. event: remain, arg0: GPE
+
+before: 1->2
+cause: 1->2
+cause: 2->3
+cause: 2->4
+cause: 3->5

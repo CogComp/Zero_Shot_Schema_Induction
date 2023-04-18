@@ -1,0 +1,18 @@
+Shout: arg0 – people [PER]
+March: arg0 – people [PER], location - [LOC]
+Throw: arg0 – people [PER], arg1 – stones 
+Make: arg0 – people [PER], arg1 – damages 
+Arrive: arg0 – people/police [PER], location – civil unrest scene [LOC]
+Shoot: arg0 – people/police [PER], arg2 – people/police 
+Arrest: arg0 – police [PER], arg1 – protestors [PER]
+Hit: arg0 – police/protestors [PER], arg1 – police/protestors [PER]
+Transport: arg0 – police car, arg1 – arrested people [PER], location – police station/jail [LOC]
+Sentence: arg0 – judges [PER], arg1 – people [PER]
+Kill: arg0 - [PER], arg1 - [PER]
+Injure: arg0 - [PER], arg1 - [PER]
+Fire: arg0 – police [PER], arg1 – tear gas, arg2 – protestors
+Hole up:  arg0 – executive
+Disperse: arg0 – police [PER], arg1 - [PER]
+Escape: arg0 – executive [PER], location – foreign country [LOC]
+
+People arrive at the civil unrest scene -> People shout AND People march AND/OR  People throw stones -> People make damages AND (Police arrives at the civil unrest scene  -> Police/people shoot on police/people AND police/protestors hit police/protestors  -> (someone kills someone AND/OR someone injures someone)) AND police fires tear gas on protestors  -> police disperse people  AND/OR police arrests protestors -> police car transports arrested people to police station/jail -> judges sentence people AND/OR (executive holes up  OR executive escapes to a foreign country).

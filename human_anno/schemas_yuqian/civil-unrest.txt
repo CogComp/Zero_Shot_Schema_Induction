@@ -1,0 +1,30 @@
+Civil Unrest
+No text provided
+
+1. event: assemble
+2. event: conflict
+3. event: throw
+4. event: punch
+5. event: protest
+6. event: control
+7. event: use, arg0: PER, arg1: ART
+8. event: curfew, arg0: ORG
+9. event: increase
+10. event: demonstration, arg0: PER
+11. event: loot
+
+before: 0->1
+subevent: 1->2
+subevent: 1->3
+subevent: 4->5
+subevent: 4->6
+subevent: 4->7
+subevent: 4->8
+subevent: 4->9
+subevent: 4->10
+before: 5->6
+before: 6->7
+AND: 7->8
+AND: 9->10
+before: 7->9
+before: 7->10

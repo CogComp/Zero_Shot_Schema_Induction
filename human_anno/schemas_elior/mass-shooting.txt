@@ -1,0 +1,15 @@
+Attack: arg0 – perpetrator [PER], arg1 – victim
+Shoot: arg0 – perpetrator [PER], arg2 – victim
+Kill: arg0 – perpetrator [PER]/police, arg1 – victim/perpetrator [PER]
+Injure: arg0 – perpetrator [PER]/police, arg1 – victim/perptrator [PER]
+Neutralize: arg0 – police/crowd [PER], arg1 – preetrator [PER]
+Arrest: arg0 – police, arg1 – perpetrator [PER]
+Transport: arg0 – ambulance, arg1 – victim [PER]
+Arrive: arg0 – police/medical teams, location – mass shooting scene [LOC]
+Run away: arg0 – perpetrator [PER]
+Provide: arg0 – medical teams, arg1 – first aid/care, arg2 – victims [PER]
+Pursue: arg0 – police, arg1 – perpetrator [PER]
+Hide: arg0 - [PER], arg2 – perpetrator [PER]
+
+
+Perpetrator attacks the victim AND Terrorist shoots on the victim -> (the victim is killed by the perpetrator OR the victim is injured by the perpetrator OR the victim hides from the perpetrator) AND (the police arrives at the mass shooting location -> the police pursues the perpetrator -> (The police/crowd neutralizes the perpetrator AND (the police kills the perpetrator OR (the police injures the perpetrator AND/OR the police arrests the perpetrator)) OR the perpetrator runs away) AND the medical teams arrive at the mass shooting location -> medical teams provide first aid/care to the victims -> ambulance transports the victims to the hospital.

@@ -1,0 +1,19 @@
+Civil Unrest
+No text provided
+
+1. event: shout, arg0: people [PER]
+2. event: march, arg0: people [PER], location: [LOC]
+3. event: throw, arg0: people [PER], arg1: stones 
+4. event: make, arg0: people [PER], arg1: damages 
+5. event: arrive, arg0: people/police [PER], location: civil unrest scene [LOC]
+6. event: shoot, arg0: people/police [PER], arg2: people/police 
+7. event: arrest, arg0: police [PER], arg1: protestors [PER]
+8. event: hit, arg0: police/protestors [PER], arg1: police/protestors [PER]
+9. event: transport, arg0: police car, arg1: arrested people [PER], location: police station/jail [LOC]
+10. event: sentence, arg0: judges [PER], arg1: people [PER]
+11. event: kill, arg0: [PER], arg1: [PER]
+12. event: injure, arg0: [PER], arg1: [PER]
+13. event: fire, arg0: police [PER], arg1: tear gas, arg2: protestors
+14. event: hole up,  arg0: executive
+15. event: disperse, arg0: police [PER], arg1: [PER]
+16. event: escape, arg0: executive [PER], location: foreign country [LOC]

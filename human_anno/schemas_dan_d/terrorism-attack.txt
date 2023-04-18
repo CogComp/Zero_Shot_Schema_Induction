@@ -1,0 +1,28 @@
+Terrorism Attack
+A terrorist plans an attack and executes it.
+The attack potentially injures or kills people or destroys infrastructure.
+Someone calls paramedics.
+They arrive, treat the injured people, and take them to the hospital.
+The news reports on the event.
+A terrorist group claims responsibility for the attack.
+
+1. event: plan, arg0: PER
+2. event: executes, arg0: PER
+3. event: injures, arg0: the attack, arg1: PER
+4. event: kills, arg0: the attack, arg1: PER
+5. event: damages, arg0: the attack, arg1: infrastructure
+6. event: calls, arg0: PER, arg1: PER
+7. event: arrive, arg0: PER
+8. event: treat, arg0: PER, arg1: PER
+9. event: take, arg0: PER, arg1: PER
+10. event: reports, arg0: PER
+11. event: claims, arg0: the group, arg1: responsibility
+
+before: 1->2
+before: 2->2
+before: 2->4
+before: 2->5
+before: 2->6
+before: 6->7->8->9
+before: 2->10
+before: 2->11

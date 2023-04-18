@@ -1,0 +1,22 @@
+Disaster and Rescue
+A disaster occurs, injuring or killing people and destroying infrastructure.
+Paramedics arrive, treat people, and take them to the hospital.
+People clean up the damage and rebuild.
+
+1. event: occur, arg0: the disaster
+2. event: injure, arg0: the disaster, arg1: PER
+3. event: die, arg0: PER
+4. event: destroy, arg0: the disaster, arg1: PER
+5. event: arrive, arg0: PER
+6. event: treat, arg0: PER, arg1: PER
+7. event: take, arg0: PER, arg1: PER
+8. event: clean, arg0: PER, arg1: damage
+9. event: rebuild, arg0: PER
+
+before: 1->2
+before: 2->3
+before: 1->4
+before: 2->5
+before: 3->5
+before: 5->6->7
+before: 4->8->9

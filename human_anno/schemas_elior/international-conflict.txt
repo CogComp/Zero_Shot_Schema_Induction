@@ -1,0 +1,12 @@
+Attack: arg0 – army/fighter plane, arg1 – country
+Invade: arg0 – army, arg1 – country 
+Kill:  arg0 – army, arg1 - [PER]
+Shoot: arg0 – army, arg2 - [PER]
+Resist: arg0 – civilians, arg2 – army 
+Take: arg0 – army, arg1 – prisoners 
+Surrender: arg0 – government 
+Enter: arg0 – tanks, arg1 – country 
+Injure: arg0 – army, arg1 - [PER]
+Escape: arg0 – executive, location – foreign country [LOC]
+
+Army/fighter plane attacks a country AND army shoots on someone AND tanks enter the country -> Army invades the country AND (Army kills someone OR Army injures someone) -> Army takes prisoners AND civilians resist against the army -> Government surrenders AND/OR executive escapes to a foreign country.

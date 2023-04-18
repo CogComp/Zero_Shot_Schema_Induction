@@ -1,0 +1,20 @@
+Election
+Candidates sign up to run for a position.
+They campaign and raise money.
+The candidates debate.
+People vote for who they want to win.
+The votes are counted.
+One candidate wins and assumes office.
+
+1. event: sign up, arg0: PER
+2. event: campaign, arg0: PER
+3. event: raise, arg0: PER, arg1: money
+4. event: debate, arg0: PER, arg1: PER
+5. event: vote, arg0: PER, arg1: PER
+6. event: count, arg0: PER, arg1: votes
+7. event: win, arg0: PER
+8. event: assumes, arg0: PER, arg1: office
+
+before: 1->2->3
+before: 1->4
+before: 1->5->6->7->8

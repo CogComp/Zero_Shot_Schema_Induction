@@ -1,0 +1,16 @@
+Business Change
+One company decides it wants to acquire another.
+It offers the smaller company an acquisition deal.
+They negotiate and reach a deal.
+The government approves the deal.
+The companies merge.
+
+1. event: decide, arg0: ORG
+2. event: offer, arg0: ORG, arg1: money, arg2: ORG
+3. event: negotiate, arg0: ORG
+4. event: reach, arg0: ORG, arg1: a deal
+5. event: approves, arg0: ORG
+6. event: merge, arg0: ORG
+
+before: 1->2->3->4->6
+before: 5->6

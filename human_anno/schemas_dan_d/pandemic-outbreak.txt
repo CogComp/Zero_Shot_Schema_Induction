@@ -1,0 +1,25 @@
+Pandemic Outbreak
+A virus infects a person.
+The person spreads the virus to another person repeatedly.
+The person gets sick and is taken to the hospital where they are treated.
+People die.
+Scientists take samples of the virus and then develop medicine and vaccines.
+The vaccines are given to people.
+
+1. event: infects, arg0: the virus, arg1: PER
+2. event: spreads, arg0: PER, arg1: the virus, arg??: PER
+3. event: get sick, arg0: PER
+4. event: take, arg0: PER, arg1: PER
+5. event: treat, arg0: PER, arg1: PER
+6. event: die, arg0: PER
+7. event: take sample, arg0: PER, arg1: the virus
+8. event: develop, arg0: PER, arg1: medicine
+9. event: develop, arg0: PER, arg1: vaccine
+10. event: distribute, arg0: PER, arg1: vaccine, arg??: PER
+
+before: 1->2
+before: 1->3->4->5->6
+before: 1->7
+before: 7->8
+before: 7->9
+before: 9->10

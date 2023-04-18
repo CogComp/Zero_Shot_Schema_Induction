@@ -1,0 +1,18 @@
+Business Change
+From this week, sick pay cuts will be implemented at Wessex Water and in the US several major companies have started penalising unjabbed workers. It comes as firms struggle with mass staff absences and rising costs. Ikea has cut sick pay for unvaccinated staff who need to self-isolate because of Covid exposure and in some cases for workers who test positive. The retail giant said its policy had to evolve with changing circumstances.
+
+1. event: implement, arg-loc: LOC
+2. event: penalize, arg0: ORG, arg1: PER
+3. event: struggle, arg0: ORG
+4. event: cut, arg0: ORG, arg1: PER
+5. event: expose, arg0: PER
+6. event: test, arg0: PER
+7. event: evolve, arg0: ORG
+
+and: 1->2
+cause: 3->1
+cause: 3->2
+and: 5->6
+cause: 5->4
+cause: 6->4
+

@@ -1,0 +1,14 @@
+Pandemic Outbreak
+The infection wave moved with “unprecedented speed” and caused much milder illness than earlier strains. If this pattern continues and is repeated globally, we are likely to see a complete decoupling of case and death rates.
+
+1. event: move, arg0: infection wave
+2. event: cause, arg0: infection wave, arg1: illness, arg-ext: mild
+3. event: cause, arg0: earlier strains, arg1: illness, arg-tmp: ealier
+4. event: continue, arg0: pattern
+5. event: repeat, arg0: pattern, arg-loc: globally
+6. event: decouple, arg1: case, arg2: death rates, arg-ext: complete
+
+before: 1->2
+cause: 4->6
+cause: 5->6
+and: 4->5

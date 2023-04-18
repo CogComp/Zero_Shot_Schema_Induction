@@ -1,0 +1,18 @@
+Pandemic Outbreak
+No text provided
+
+1. event: contaminate, arg1: [PER]
+2. event: spread, arg0: disease/virus
+3. event: cure, arg0: doctors [PER], arg1: contaminated people
+4. event: provide, arg0: medical teams [PER], arg1: preventive treatment, arg2: people [PER]
+5. event: decide, arg0: government, arg2: preventive restrictions
+6. event: hospitalize, arg1: contaminated people [PER], location: hospital [LOC]
+7. event: take,  arg0: contaminated people [PER], arg1: medications
+8. event: prescribe, arg0: doctors [PER], arg1: medications, arg2: contaminated people [PER]
+9. event: test,  arg0: medical teams [PER], arg1: [PER], arg2: disease
+10. event: show, arg0: contaminated people [PER], arg1: symptoms
+11. event: take, arg0: [PER], arg1: precautions
+12. event: quarantine, arg1: [PER]
+13. event: cancel, arg0: people/organizations, arg1: flights/shows/classes/meetings
+14. event: die, arg0: contaminated people [PER]
+15. event: recover, arg0: contaminated people [PER]

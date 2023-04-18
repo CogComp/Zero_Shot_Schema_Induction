@@ -1,0 +1,13 @@
+International Conflict
+No text provided
+
+1. event: attack, arg0: army/fighter plane, arg1: country
+2. event: invade, arg0: army, arg1: country 
+3. event: kill,  arg0: army, arg1: [PER]
+4. event: shoot, arg0: army, arg2: [PER]
+5. event: resist, arg0: civilians, arg2: army 
+6. event: take, arg0: army, arg1: prisoners 
+7. event: surrender, arg0: government 
+8. event: enter, arg0: tanks, arg1: country 
+9. event: injure, arg0: army, arg1: [PER]
+10. event: escape, arg0: executive, location: foreign country [LOC]

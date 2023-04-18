@@ -1,0 +1,20 @@
+Place: arg0 – terrorist [PER], arg1 – bomb, location – terrorist attack location [LOC]
+Attack: arg0 – terrorist [PER], arg1 – victim
+Shoot: arg0 – terrorist [PER], arg2 – victim
+Stab: arg0 – terrorist [PER], arg1 – victim
+Run over: arg0 – terrorist, arg1 – pedestrians [PER], instrument – vehicle
+Kidnap: arg0 – terrorist, arg1 – victims/vehicle
+Explode: arg0 – Bomb 
+Suicide:  arg0 – terrorist 
+Kill: arg0 – terrorist [PER]/police, arg1 – victim/terrorist [PER]
+Injure: arg0 – terrorist [PER]/police, arg1 – victim/terrorist [PER]
+Neutralize: arg0 – police/crowd [PER], arg1 – terrorist [PER]
+Arrest: arg0 – police, arg1 – terrorist [PER]
+Transport: arg0 – ambulance, arg1 – victim [PER]
+Arrive: arg0 – police/medical teams, location – terrorist attack scene [LOC]
+Run away: arg0 – terrorist [PER]
+Provide: arg0 – medical teams, arg1 – first aid/care, arg2 – victims [PER]
+Pursue: arg0 – police, arg1 – terrorist [PER]
+
+
+Terrorist attacks the victim AND (Terrorist places a bomb at the terrorist attack location OR Terrorist shoots on the victim OR Terrorist stabs the victim OR Terrorist runs over the victim with a vehicle OR Terrorist kidnaps victims/ a vehicle) -> a bomb explodes AND/OR (the victim is killed by the terrorist OR the victim is injured by the terrorist) AND (the police arrives at the terrorist attack location -> the police pursues the terrorist -> (The police/crowd neutralizes the terrorist AND (the police kills the terrorist OR (the police injures the terrorist AND/OR the police arrests the terrorist)) OR the terrorist runs away) AND the medical teams arrive at the terrorist attack location -> medical teams provide first aid/care to the victims -> ambulance transports the victims to the hospital.

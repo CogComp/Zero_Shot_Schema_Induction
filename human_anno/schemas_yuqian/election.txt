@@ -1,0 +1,17 @@
+Election
+No text provided
+
+1. event: sponsor, arg0: ORG, arg1: PER
+2. event: propaganda, arg0: PER
+3. event: presentation, arg0: PER
+4. event: interview, arg0: ORG, arg1: PER
+5. event: debate, arg0: PER
+6. event: vote, arg0: PER
+7. event: statement, arg0: PER
+
+before: 0->1
+OR: 1->2
+OR: 2->3
+OR: 3->4
+before: 4->5
+before: 5->6

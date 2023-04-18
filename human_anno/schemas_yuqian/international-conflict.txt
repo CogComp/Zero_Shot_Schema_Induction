@@ -1,0 +1,15 @@
+International Conflict
+No text provided
+
+1. event: conflict
+2. event: statement, arg0: country
+3. event: punish, arg0: country, arg1: country
+4. event: measure, arg0: country
+5. event: negotiate
+6. event: consensus
+
+before: 0->1
+before: 1->2
+before: 2->3
+before: 3->4
+before: 4->5

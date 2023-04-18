@@ -1,0 +1,17 @@
+Prepare: arg0 – perpetrator [PER], arg1 – bomb 
+Explode: arg0 – bomb
+Place: arg0 – perpetrator [PER], arg1 – bomb, location – bombing scene [LOC]
+Hide: arg0 – perpetrator [PER], arg1 – bomb
+Kill: arg0 – perpetrator [PER], arg1 – victim [PER]
+Destroy: arg0 – perpetrator [PER], arg1 – building/store/car 
+Arrive: arg0  - perpetrator/police/medical teams [PER], location – bombing scene [LOC]
+Rescue: arg0 - [PER], arg1 – victim
+Transport: arg0 – ambulance, arg1 – victim, destination – Hospital 
+Injure: arg0 – perpetrator [PER], arg1 – victim [PER]
+Make: arg0 – bomb, arg1 – damages
+Search for:  arg0 – police, arg1 – perpetrator/other bombs
+Arrest: arg0 – police, arg1 – perpetrator
+Find: arg0 – police, arg1 – other bombs
+      
+        
+Perpetrator (PER) prepares a bomb -> Perpetrator arrives at the bombing scene -> (Perpetrator (PER) places the bomb at the bombing scene AND Perpetrator hides the bomb -> the bomb explodes -> victims are killed by the perpetrator AND/OR victims are injured by the perpetrator AND/OR  (the perpetrator destroys building/store/car AND the bomb makes damages) ->  (Police arrives at the bombing scene  -> Police searches for perpetrator/other bombs -> (police arrests the perpetrator AND/OR finds other bombs) AND (Medical teams arrive at the bombing scene -> Ambulance transports the victims to the hospital) AND someone (PER) rescues the victims.

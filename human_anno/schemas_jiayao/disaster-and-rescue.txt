@@ -1,0 +1,13 @@
+Disaster and Rescue
+The deadly tornado tore through six states overnight leaving authorities to pick up the pieces. These tornadoes left a trail of destruction stretching more than 200 miles. The firefighters found people trapped beneath the aftermath of natural disasters. 
+
+1. event: tear, arg0: tornado, arg-loc: LOC
+2. event: pick, arg0: GPE, arg1: pieces
+3. event: leave, arg0: tornado, arg1: destruction
+4. event: find, arg0: PER, arg1: PER, arg-loc: LOC
+
+cause: 1->2
+cause: 1->3
+cause: 1->4
+cause: 3->2
+and: 2->4

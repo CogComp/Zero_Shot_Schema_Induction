@@ -1,0 +1,15 @@
+Sports Game
+People arrive at a stadium.
+Two teams play a game.
+One of the team wins.
+The fans celebrate or are sad.
+
+1. event: arrive, arg0: PER
+2. event: play, arg0: two teams
+3. event: win, arg0: one team
+4. event: celebrate, arg0: the fans
+5. event: become sad, arg0: the fans
+
+before: 1->2->3
+before: 3->4
+before: 3->5

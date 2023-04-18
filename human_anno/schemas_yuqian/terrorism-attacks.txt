@@ -1,0 +1,23 @@
+Terrorism Attacks
+No text provided
+
+1. event: attack, arg0: ORG
+2. event: kill, arg1: PER
+3. event: injure, arg0: PER
+4. event: destroy, arg1: FAC
+5. event: escape, arg0: ORG
+6. event: chaos
+7. event: statement, arg0: ORG
+8. event: panic, arg0: ORG
+9. event: response, arg0: GOV
+
+subevent: 0->1
+subevent: 0->2
+subevent: 0->3
+before: 0->4
+OR: 1->2
+OR: 2->3
+before: 0->5
+before: 0->6
+before: 6->7
+before: 7->8

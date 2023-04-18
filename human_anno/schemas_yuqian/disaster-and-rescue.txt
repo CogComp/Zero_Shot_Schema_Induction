@@ -1,0 +1,26 @@
+Disaster and Rescue
+No text provided
+
+1. event: collapse, arg0: FAC
+2. event: arrive, arg0: ORG
+3. event: rescue
+4. event: sift, arg0: ORG
+5. event: insert, arg1: ART
+6. event: reveal
+7. event: catch, arg0: ART, arg1: PER
+8. event: rescue, arg1: PER
+9. event: send, arg1: PER, ARGM-LOC: FAC
+10. event: receive, arg1: PER
+
+before: 0->1
+before: 1->2
+subevent: 2->3
+subevent: 2->4
+subevent: 2->5
+subevent: 2->6
+subevent: 2->7
+before: 4->5
+before: 5->6
+before: 6->7
+before: 7->8
+before: 8->9

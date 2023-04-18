@@ -1,0 +1,25 @@
+vote: arg0 – voters [PER], arg2 – candidate [PER]
+win:  arg0 – candidate [PER], arg1 – election
+lose: arg0 – candidate [PER], arg1 – election
+announce: arg0 – journalist/presenter/executive, arg1 – results
+publish:  arg0 – media, arg1 – polls 
+debate: arg0 – candidate1 [PER], arg2 – candidate2[PER]
+propose: arg0 – candidate1 [PER], arg2 – program
+present: arg0 – candidate1 [PER], arg2 – program 
+increase:  arg0 – vote intentions
+decrease:  arg0 – vote intentions
+participate: arg0 - [PER], arg2 – elections
+form: arg0 – winner [PER], arg1 – coalition
+form: arg0 – winner [PER], arg1 – government 
+sign: arg0 – candidate [PER], arg1 – agreement, arg2 – candidate 2
+meeting: arg0 – candidate [PER], arg1 – supporters
+count: arg0 – organizer, arg1 – votes
+call: arg0 – loser [PER] , arg1 – winner [PER]
+make: arg0 – candidate [PER], arg1 – speech 
+withdraw: arg0 – candidate [PER], arg1 – candidacy
+announce:  arg0 – candidate [PER], arg1 – candidacy 
+recognize: arg0 – loser, arg2 – lost
+refuse to recognize: arg0 – loser, arg1 – lost 
+dissolve: arg0 – president/parliament, arg1 – parliament
+
+President/parliament dissolves the parliament -> candidate announce his/her candidacy -> candidate proposes a program -> candidate presents a program  AND candidate makes a campaign -> candidate 1 debates with candidate 2  AND (the media publish polls -> vote intentions increase OR vote intentions decrease) AND candidate meets with his/her supporters AND candidate1 signs an agreement with candidate 2 AND/OR candidate withdraws his/her candidacy -> voters vote AND people participate to the election -> the organizer counts the votes -> the journalist/presenter/executive announces the results -> candidate wins OR candidate loses -> winner makes a speech  -AND (loser recognizes the results -> the loser calls the winner) OR the loser refuses to recognize the results -> the winner forms a coalition AND/OR the winner forms a government.

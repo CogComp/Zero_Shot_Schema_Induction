@@ -1,0 +1,10 @@
+Sports Games
+In the biggest shocker of the day, the Jags stunned the Colts. To get in the playoffs, all the Colts had to do was beat the worst team in the NFL and they couldn't even accomplish that. Over their past 34 games, the Jags now have more wins against the Colts (3-2) than they do against every other NFL team combined (2-27). 
+
+1. event: stun, arg0: ORG, arg1: ORG
+2. event: get, arg0: ORG
+3. event: beat, arg0: ORG, arg1: ORG
+4. event: have, arg0: ORG
+
+cause: 3->2
+before: 1->4

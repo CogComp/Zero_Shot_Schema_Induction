@@ -1,0 +1,26 @@
+Election
+No text provided
+
+1. event: vote, arg0: voters [PER], arg2: candidate [PER]
+2. event: win,  arg0: candidate [PER], arg1: election
+3. event: lose, arg0: candidate [PER], arg1: election
+4. event: announce, arg0: journalist/presenter/executive, arg1: results
+5. event: publish,  arg0: media, arg1: polls 
+6. event: debate, arg0: candidate1 [PER], arg2: candidate2[PER]
+7. event: propose, arg0: candidate1 [PER], arg2: program
+8. event: present, arg0: candidate1 [PER], arg2: program 
+9. event: increase,  arg0: vote intentions
+10. event: decrease,  arg0: vote intentions
+11. event: participate, arg0: [PER], arg2: elections
+12. event: form, arg0: winner [PER], arg1: coalition
+13. event: form, arg0: winner [PER], arg1: government 
+14. event: sign, arg0: candidate [PER], arg1: agreement, arg2: candidate 2
+15. event: meeting, arg0: candidate [PER], arg1: supporters
+16. event: count, arg0: organizer, arg1: votes
+17. event: call, arg0: loser [PER] , arg1: winner [PER]
+18. event: make, arg0: candidate [PER], arg1: speech 
+19. event: withdraw, arg0: candidate [PER], arg1: candidacy
+20. event: announce,  arg0: candidate [PER], arg1: candidacy 
+21. event: recognize, arg0: loser, arg2: lost
+22. event: refuse to recognize, arg0: loser, arg1: lost 
+23. event: dissolve, arg0: president/parliament, arg1: parliament

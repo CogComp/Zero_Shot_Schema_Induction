@@ -1,0 +1,13 @@
+Happen: arg0 – disaster
+Kill: arg0 – disaster, arg1 – victim [PER]
+Injure:  arg0 – disaster, arg1 – victim [PER]
+Rescue: arg0 – rescue teams [PER], arg1 – victim [PER]
+Transport: arg0 – ambulances/helicopters [PER], arg1 – victim [PER], destination – hospital [LOC]
+Hide: arg0 - [PER], location – protected location [LOC]
+Survive: arg0 - [PER], location – disaster location [LOC]
+Propose: arg0 – foreign government, arg1 – help, arg2 – affected country
+Arrive: arg0 – rescue teams/medical teams, location – disaster location [LOC]
+Provide: arg0 – medical teams, arg1 – care/first aid, arg2 - victims
+Search for: rag0 – rescue teams, arg1 – survivors 
+
+Disaster happens -> Victims are killed by the disaster OR Victims are injured by the disaster OR people survive at the disaster location -> (Rescue teams arrive at the disaster location -> Rescue teams search for survivors -> Rescue teams rescue victims) AND (medical teams arrive at the disaster location -> Medical teams provide care/first aid to the victims -> Ambulances/helicopters transport victims to the hospital) -> foreign government proposes help to the affected country.

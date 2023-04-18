@@ -1,0 +1,17 @@
+International Conflict
+Two countries start a dispute.
+Their armies fight each other.
+They have talks to end the conflict.
+They agree on a deal.
+They sign a treaty.
+
+1. event: start, arg0: the countries, arg1: a dispute
+2. event: fight, arg0: the armies
+3. event: have talks, arg0: the countries
+4. event: agree, arg0: the countries, arg1: deal
+5. event: sign, arg0: the countries, arg1: a treaty
+
+before: 1->2
+before: 1->3
+before: 2->3
+before: 3->4->5

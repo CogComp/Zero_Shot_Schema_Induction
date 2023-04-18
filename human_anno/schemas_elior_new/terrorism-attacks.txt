@@ -1,0 +1,20 @@
+Terrorism Attacks
+No text provided
+
+1. event: place, arg0: terrorist [PER], arg1: bomb, location: terrorist attack location [LOC]
+2. event: attack, arg0: terrorist [PER], arg1: victim
+3. event: shoot, arg0: terrorist [PER], arg2: victim
+4. event: stab, arg0: terrorist [PER], arg1: victim
+5. event: run over, arg0: terrorist, arg1: pedestrians [PER], instrument: vehicle
+6. event: kidnap, arg0: terrorist, arg1: victims/vehicle
+7. event: explode, arg0: Bomb 
+8. event: suicide,  arg0: terrorist 
+9. event: kill, arg0: terrorist [PER]/police, arg1: victim/terrorist [PER]
+10. event: injure, arg0: terrorist [PER]/police, arg1: victim/terrorist [PER]
+11. event: neutralize, arg0: police/crowd [PER], arg1: terrorist [PER]
+12. event: arrest, arg0: police, arg1: terrorist [PER]
+13. event: transport, arg0: ambulance, arg1: victim [PER]
+14. event: arrive, arg0: police/medical teams, location: terrorist attack scene [LOC]
+15. event: run away, arg0: terrorist [PER]
+16. event: provide, arg0: medical teams, arg1: first aid/care, arg2: victims [PER]
+17. event: pursue, arg0: police, arg1: terrorist [PER]

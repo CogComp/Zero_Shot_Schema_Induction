@@ -1,0 +1,23 @@
+Mass Shooting
+The attacker plans the shooting.
+They record some video to explain why.
+The attacker goes to where the shooting takes place and injures or kills people.
+The police arrive and arrest or kill the suspect.
+
+1. event: plan, arg0: PER
+2. event: record, arg0: PER
+3. event: go, arg0: PER, arg1: LOC
+4. event: shoots, arg0: PER, arg1: PER
+5. event: injures, arg0: PER, arg1: PER
+6. event: kills, arg0: PER, arg1: PER
+7. event: arrive, arg0: PER, arg1: LOC
+8. event: arrest, arg0: PER, arg1: PER
+9. event: kill, arg0: PER, arg1: PER
+
+before: 1->2
+before: 1->3->4
+before: 4->5
+before: 4->6
+before: 4->7
+before: 7->8
+before: 7->9

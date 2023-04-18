@@ -1,0 +1,18 @@
+Contaminate: arg1 - [PER]
+Spread: arg0 - disease/virus
+Cure: arg0 - doctors [PER], arg1 – contaminated people
+Provide: arg0 – medical teams [PER], arg1 - preventive treatment, arg2 – people [PER]
+Decide: arg0 – government, arg2 – preventive restrictions
+Hospitalize: arg1 - contaminated people [PER], location – hospital [LOC]
+Take:  arg0 – contaminated people [PER], arg1 – medications
+Prescribe: arg0 – doctors [PER], arg1 – medications, arg2 – contaminated people [PER]
+Test:  arg0 – medical teams [PER], arg1 - [PER], arg2 – disease
+Show: arg0 – contaminated people [PER], arg1 – symptoms
+Take: arg0 - [PER], arg1 – precautions
+Quarantine: arg1 - [PER]
+Cancel: arg0 – people/organizations, arg1 – flights/shows/classes/meetings
+Die: arg0 – contaminated people [PER]
+Recover: arg0 – contaminated people [PER]
+ 
+Someone (PER) got contaminated - > the disease/virus spreads -> Someone (PER) got contaminated AND -> Someone (PER) shows symptoms -> doctors (arg0) cure contaminated people AND/OR (contaminated people (PER) are hospitalized in hospitals -> (contaminated people (PER) recover OR contaminated people (PER) die)) AND/OR (doctors prescribe medications to contaminated people (PER) -> contaminated people (PER) take medications) AND (governments decide on preventive restrictions -> people (PER) quarantine AND medical teams test people for the disease) AND people (PER) take precautions AND people/organizations cancel flights/shows/classes/meetings.      
+

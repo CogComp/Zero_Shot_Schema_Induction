@@ -1,0 +1,15 @@
+Kidnapping
+Brent Brown, 39, was arrested on December 18 when authorities found Allen naked and covered in coal dust in his home following a five-day search sparked by her disappearance. Brown is charged with six felonies, including rape, aggravated kidnapping, aggravated sexual assault, and obstructing justice, according to an indictment obtained by Insider. 
+
+1. event: arrest, arg0: PER, arg-tmp: TMP
+2. event: find, arg0: PER, arg1: PER
+3. event: search, arg0: PER, arg1: PER
+4. event: disappear, arg0: PER
+5. event: charge, arg0: PER
+
+before: 2->1
+before: 4->3
+before: 3->2
+cause: 2->1
+cause: 4->3
+cause: 1->5

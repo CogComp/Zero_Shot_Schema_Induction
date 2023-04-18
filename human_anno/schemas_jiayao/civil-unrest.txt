@@ -1,0 +1,18 @@
+Civil Unrest
+Russia’s decision to send paratroopers into Kazakhstan, where a crackdown on violent anti-government protests has left dozens dead. Russian troops helping to restore control over the airport and guarding government buildings, the Kazakh President ordered his forces to shoot to kill any protesters who don’t surrender.
+
+1. event: send, arg0: GPE, arg1: PER, arg2: GPE2
+2. event: crack arg0: GPE, arg1: PER
+3. event: leave, arg1: PER
+4. event: restore, arg0: PER, arg-loc: LOC
+5. event: guard, arg0: PER, arg-loc: LOC
+6. event: order, arg0: PER, arg1: PER, arg2: PER
+7. event: kill, arg0: PER, arg1:PER
+
+cause: 2->3
+cause: 2->1
+cause: 1->4
+cause: 1->5
+cause: 1->6
+cause: 6->7
+and: 4->5

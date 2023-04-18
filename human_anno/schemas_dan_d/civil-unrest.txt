@@ -1,0 +1,19 @@
+Civil Unrest
+People riot and break property.
+The police arrive and fight with the rioters.
+The police use force against the rioters.
+The police arrest them and take them to jail.
+People clean up after the riot.
+
+1. event: riot, arg0: PER
+2. event: break, arg0: PER, arg1: property
+3. event: arrive, arg0: PER
+4. event: fight, arg0: PER, arg1: PER
+5. event: arrest, arg0: PER, arg1: PER
+6. event: take, arg0: PER, arg1: PER
+7. event: clean, arg0: PER, arg1: the street
+
+before: 1->2
+before: 1->3
+before: 3->4->5->6
+before: 2->7

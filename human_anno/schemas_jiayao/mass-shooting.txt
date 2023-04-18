@@ -1,0 +1,14 @@
+Mass Shooting
+Five people are dead, including the suspected shooter, and three are wounded after a suspect opened fire multiple times in Denver and Lakewood on Monday night. The Denver Police Department and the Lakewood Police Department are working together to investigate the incident.
+
+1. event: die, arg0: PER
+2. event: wound, arg0: PER
+3. event: fire, arg0: PER, arg-loc: LOC, arg-tmp: TMP
+4. event: investigate, arg0: ORG
+
+before: 3->1
+before: 3->2
+and: 1->2
+cause: 3->1
+cause: 3->2
+cause: 3->4

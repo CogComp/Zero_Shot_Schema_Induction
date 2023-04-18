@@ -1,0 +1,50 @@
+0000000000000000000000000000000000000000 147f8c52ad18c4c586f50849b8cc43e71ebc2b5e why2011btv <why16gzl@seas.upenn.edu> 1632513754 -0400	commit (initial): prepare for temporal component
+147f8c52ad18c4c586f50849b8cc43e71ebc2b5e 147f8c52ad18c4c586f50849b8cc43e71ebc2b5e why2011btv <why16gzl@seas.upenn.edu> 1632513762 -0400	Branch: renamed refs/heads/master to refs/heads/main
+147f8c52ad18c4c586f50849b8cc43e71ebc2b5e 7f61b184ce039d2c874643ba654693afc0446f5a why2011btv <why16gzl@seas.upenn.edu> 1632516064 -0400	commit: before step 4
+7f61b184ce039d2c874643ba654693afc0446f5a fd0aa7c0d400c86bc3f5d692dfb879c23aa81782 why2011btv <why16gzl@seas.upenn.edu> 1632621855 -0400	commit: before temp done 09252021
+fd0aa7c0d400c86bc3f5d692dfb879c23aa81782 75b81085fa290fbba808a84a4625580c053e4fe2 why2011btv <why16gzl@seas.upenn.edu> 1632715814 -0400	commit: add links to people/paper
+75b81085fa290fbba808a84a4625580c053e4fe2 e37b8405dcda870f2e1c29f5b76a165676bd8f16 why2011btv <why16gzl@seas.upenn.edu> 1632722633 -0400	commit: add GPT-J
+e37b8405dcda870f2e1c29f5b76a165676bd8f16 62db582b440bd9d68cbf7a73ceb62dcab9c94b0b why2011btv <why16gzl@seas.upenn.edu> 1632728461 -0400	commit: sorted event mentions/types from 10 pieces of GPT-J generated text
+62db582b440bd9d68cbf7a73ceb62dcab9c94b0b 7b6cf1eb66d5b571c7d16f5924a2053ae3aa2f38 why2011btv <why16gzl@seas.upenn.edu> 1632857158 -0400	commit: headline function not tested yet
+7b6cf1eb66d5b571c7d16f5924a2053ae3aa2f38 ab276fb388a7cd153a28194896edc6fb0fc4bfa1 why2011btv <why16gzl@seas.upenn.edu> 1632956567 -0400	commit: fix entities
+ab276fb388a7cd153a28194896edc6fb0fc4bfa1 46ff192efd372c18640d8924735a8b1dd7c8f0dc why2011btv <why16gzl@seas.upenn.edu> 1633020560 -0400	pull: Merge made by the 'recursive' strategy.
+46ff192efd372c18640d8924735a8b1dd7c8f0dc 77fa0a737431240de5f6823d59981021b2e0d9a1 why2011btv <why16gzl@seas.upenn.edu> 1633029422 -0400	pull: Fast-forward
+77fa0a737431240de5f6823d59981021b2e0d9a1 cd57f9bc20944742b455390cb685c645c51bd91b why2011btv <why16gzl@seas.upenn.edu> 1633072179 -0400	commit: add multiprocessing.pool.starmap
+cd57f9bc20944742b455390cb685c645c51bd91b 81792fdd37e098d34d6b7e5b649c22e76c3a5f95 why2011btv <why16gzl@seas.upenn.edu> 1633115834 -0400	commit: add a few TODO items
+81792fdd37e098d34d6b7e5b649c22e76c3a5f95 94a3230c358d2165f33fa206b1bcb27627436b63 why2011btv <why16gzl@seas.upenn.edu> 1636952256 -0500	commit: add semantic similarity score for filtering text generated using both News & HowTo
+94a3230c358d2165f33fa206b1bcb27627436b63 376e80e5f994e883c2f26ac2f00ae365061bcdb0 why2011btv <why16gzl@seas.upenn.edu> 1636952282 -0500	pull: Merge made by the 'recursive' strategy.
+376e80e5f994e883c2f26ac2f00ae365061bcdb0 7dda520bd32c9456f54e31041d1d8116ee0b4992 why2011btv <why16gzl@seas.upenn.edu> 1636952654 -0500	commit: add semantic similarity score for filtering text generated using both News & HowTo
+7dda520bd32c9456f54e31041d1d8116ee0b4992 f1d18a2e8c77404fc8ee27e9a8e19c3c44ffb897 why2011btv <why16gzl@seas.upenn.edu> 1636953192 -0500	commit: add folder png
+f1d18a2e8c77404fc8ee27e9a8e19c3c44ffb897 9e36a53eacbd3a82ef5765de6fa00254d16b98cd why2011btv <why16gzl@seas.upenn.edu> 1636953673 -0500	commit: exp 9378
+9e36a53eacbd3a82ef5765de6fa00254d16b98cd daa55b901bf0ecf2da8bdbf18b6d5546a49778e1 why2011btv <why16gzl@seas.upenn.edu> 1636992121 -0500	commit: exp 65423
+daa55b901bf0ecf2da8bdbf18b6d5546a49778e1 a861eda93119d59da37706126d7622e93bac1493 why2011btv <why16gzl@seas.upenn.edu> 1637002335 -0500	commit: update README
+a861eda93119d59da37706126d7622e93bac1493 9c6a49232e53f597662c44a6795e3dc4f15ecf10 why2011btv <why16gzl@seas.upenn.edu> 1637002365 -0500	commit: update README
+9c6a49232e53f597662c44a6795e3dc4f15ecf10 a0adf40d8f773c7c7888a84a69a4fa09e53f78dc why2011btv <why16gzl@seas.upenn.edu> 1637698295 -0500	commit: start trying gpt-3
+a0adf40d8f773c7c7888a84a69a4fa09e53f78dc c58c83a6389c7e88fa54167cccab26ec4b8454ba why2011btv <why16gzl@seas.upenn.edu> 1637709018 -0500	commit: generate.py
+c58c83a6389c7e88fa54167cccab26ec4b8454ba 7717c298038242a820c641066bd43f5649fed400 why2011btv <why16gzl@seas.upenn.edu> 1637709375 -0500	commit: update generate.py
+7717c298038242a820c641066bd43f5649fed400 11a06ed0f55133d46573b750b889b43e93f31d79 why2011btv <why16gzl@seas.upenn.edu> 1637988475 -0500	commit: davinci-instruct-beta-v3
+11a06ed0f55133d46573b750b889b43e93f31d79 4e533ac41001896a9dd9bbb1ada9d576163abc7e why2011btv <why16gzl@seas.upenn.edu> 1637988479 -0500	commit: davinci-instruct-beta-v3
+4e533ac41001896a9dd9bbb1ada9d576163abc7e 253373a557a47d951d41fb67ab1d3a0419b43cd6 why2011btv <why16gzl@seas.upenn.edu> 1637993596 -0500	commit: davinci-instruct-beta-v3
+253373a557a47d951d41fb67ab1d3a0419b43cd6 14f1610df695dcd8a9d717af320d6788c09d82dd why2011btv <why16gzl@seas.upenn.edu> 1638034675 -0500	commit: event extraction done
+14f1610df695dcd8a9d717af320d6788c09d82dd d1d0b4ff07f91e64a1b9cd4b5d85f35d1ab078b9 why2011btv <why16gzl@seas.upenn.edu> 1638035103 -0500	commit: event extraction done
+d1d0b4ff07f91e64a1b9cd4b5d85f35d1ab078b9 2e8b9c680057b2ad9e9b025eb9d55a133def5e40 why2011btv <why16gzl@seas.upenn.edu> 1638153037 -0500	commit: +temporal
+2e8b9c680057b2ad9e9b025eb9d55a133def5e40 2c934f00190ae52f21790fd5eac8c92a8fbaa833 why2011btv <why16gzl@seas.upenn.edu> 1638225299 -0500	commit: add args to event printing
+2c934f00190ae52f21790fd5eac8c92a8fbaa833 18907b188e429826bfc6b8edd3098f9c464683c0 why2011btv <why16gzl@seas.upenn.edu> 1639968667 -0500	commit: cancel removal of argument events, add coref, add phrasal verbs, label as full trigger
+18907b188e429826bfc6b8edd3098f9c464683c0 d342afe84f0e526e1f70b13274af31ab23df1784 why2011btv <why16gzl@seas.upenn.edu> 1639970120 -0500	commit: update README
+d342afe84f0e526e1f70b13274af31ab23df1784 60c3594117f7b54e317420f5be6ce43d5f0974df why2011btv <why16gzl@seas.upenn.edu> 1640992207 -0500	commit: add coref; fix coref src int; change top20 to top30
+60c3594117f7b54e317420f5be6ce43d5f0974df aadad4b8fe5f7bf8b27a0d2a258321eac30fcab7 why2011btv <why16gzl@seas.upenn.edu> 1640992494 -0500	commit: update README
+aadad4b8fe5f7bf8b27a0d2a258321eac30fcab7 ee744d2271613501f6fb3367eee26a266c59933e why2011btv <why16gzl@seas.upenn.edu> 1641069300 -0500	commit: running complete
+ee744d2271613501f6fb3367eee26a266c59933e bdff09288987b20ef1123fabb6329af4464fae67 why2011btv <why16gzl@seas.upenn.edu> 1641159285 -0500	commit: add yuqian's schema
+bdff09288987b20ef1123fabb6329af4464fae67 63cc38cf6902cb508ed36339ba001d440b1a76d7 why2011btv <why16gzl@seas.upenn.edu> 1641311998 -0500	commit: add DanD's schema
+63cc38cf6902cb508ed36339ba001d440b1a76d7 e2228275c17f63b20a9c3259f2a57c6cd1eeb9ac why2011btv <why16gzl@seas.upenn.edu> 1641404750 -0500	commit: upload original file from Yuqian
+e2228275c17f63b20a9c3259f2a57c6cd1eeb9ac 5a92cf7c56ad13a494a255ca419c7033a5beaf4c why2011btv <why16gzl@seas.upenn.edu> 1641477129 -0500	commit: add graph_generator.py
+5a92cf7c56ad13a494a255ca419c7033a5beaf4c 5b97d9d72ea8dd30bd5231ecf8c58f226c07c3de why2011btv <why16gzl@seas.upenn.edu> 1641967739 -0500	commit: start running Typing_OnePass
+5b97d9d72ea8dd30bd5231ecf8c58f226c07c3de 2dde5bb33bb31123d4281c2e1e08bae0280b3149 why2011btv <why16gzl@seas.upenn.edu> 1642046064 -0500	commit: speed test
+2dde5bb33bb31123d4281c2e1e08bae0280b3149 b60318d023698580923689cbf0bd892d90fa9f25 why2011btv <why16gzl@seas.upenn.edu> 1642265250 -0500	commit: 0115 ARR submission
+b60318d023698580923689cbf0bd892d90fa9f25 b71473e87d4a04e4c90ed9b8d48dd69783459987 why2011btv <why16gzl@seas.upenn.edu> 1651852179 -0400	commit: fix little typos and prepare for gpt-2
+b71473e87d4a04e4c90ed9b8d48dd69783459987 711f6ff267a131055e3133044a3315140108b963 why2011btv <why16gzl@seas.upenn.edu> 1653060312 -0400	commit: before prompting hierarchy
+711f6ff267a131055e3133044a3315140108b963 9621d209c64c217a94f486561a6cb951c509d341 why2011btv <why16gzl@seas.upenn.edu> 1654923127 -0400	commit: running gpt2 schema induction (flat)
+9621d209c64c217a94f486561a6cb951c509d341 e70e28da917769d9e58dd5b92a987a58d288ea67 why2011btv <why16gzl@seas.upenn.edu> 1654995110 -0400	commit: finished running IE pipeline for GPT2
+e70e28da917769d9e58dd5b92a987a58d288ea67 27b9de5bfb9680da7233c39562c3ed13f24fe710 why2011btv <why16gzl@seas.upenn.edu> 1666103125 -0400	commit: EACL Submission on Oct 18, 2022
+27b9de5bfb9680da7233c39562c3ed13f24fe710 27112af422bdd5d72edbcc8b8dd0d36fee8cb9bd why2011btv <why16gzl@seas.upenn.edu> 1681848024 -0400	commit: before work
+27112af422bdd5d72edbcc8b8dd0d36fee8cb9bd a5e1fecbf11df6fbf144a4b228d73d1482af7931 why2011btv <why16gzl@seas.upenn.edu> 1681852356 -0400	commit: almost ready

@@ -1,0 +1,17 @@
+Sports Games
+No text provided
+
+1. event: win, arg0: ORG
+2. event: snap
+3. event: play against
+4. event: score
+5. event: catch fire, arg0: PER
+6. event: send, arg1: ORG
+7. event: beat, arg0: ORG, arg1: ORG
+
+before: 0->1
+before: 2->0
+before: 2->3
+before: 3->4
+before: 4->5
+before: 5->6
