@@ -1,6 +1,6 @@
 # Zero-Shot On-the-Fly Event Schema Induction
 
-This is the repository for the resources in EACL 2023 (findings) Paper "[Zero-Shot On-the-Fly Event Schema Induction](https://arxiv.org/pdf/2210.06254.pdf)". This repository contains the source code and datasets used in our paper.
+This is the repository for the resources in EACL 2023 (findings) Paper "[Zero-Shot On-the-Fly Event Schema Induction](https://cogcomp.seas.upenn.edu/page/publication_view/995)". This repository contains the source code and datasets used in our paper.
 
 ## Abstract
 
